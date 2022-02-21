@@ -177,7 +177,11 @@ fieldset{
 main .form{
     font-size: 1.8rem; 
     color: white;
-    text-align: center;
+    width: 60vw;
+    margin: 0 auto;
+}
+main .form input{
+    margin-top: 1rem;
 }
 .form input, .form select{
     background-color: #3b3b3b;
@@ -185,7 +189,7 @@ main .form{
     border-radius: 0.3rem;
     color: #cccccc;
     padding: 1rem;
-    width: 60%;
+    width: 60vw;
     /* margin: 0 auto; */
 }
 .form input:hover, .form select:hover{
@@ -224,6 +228,16 @@ form input[type="submit"]:hover{
 		margin: 0 auto;
 		max-width: 15rem;
 	}
+    main .form{
+        font-size: 1.8rem; 
+        color: white;
+        width: 80vw;
+        margin: 0 auto;
+        transform: translateX(-4%)
+    }
+    .form input, .form select{
+        width: 80vw;
+    }
     main div ul{
 		grid-template-columns: repeat(3, 1fr);
 	}
