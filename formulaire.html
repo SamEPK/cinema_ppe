@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="icon" type="image/png" sizes="32x32" href="./asset/Steam_icon.png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Steam - Formulaire</title>
 </head>
 <body>
@@ -20,44 +21,111 @@
             A partir du mois prochain on vous propose tous les classiques du jeux-vidéos.
             Tous les jeux en VO, VOST, VF et plus d'options.</p>
     </section>
-<div>
-    <ul>
-        <li><div class="container">
-            <div class="visuel">
-                <img src="./asset/Y0.png" alt="Y0">
-              <div class="reflet"></div>
-            </div>
-          </div></li>
-        <li><div class="container">
-            <div class="visuel">
-                <img src="./asset/MGS2.png" alt="MGS2">
-              <div class="reflet"></div>
-            </div>
-          </div></li>
-        <li><div class="container">
-            <div class="visuel">
-                <img src="./asset/SG.png" alt="SG">
-              <div class="reflet"></div>
-            </div>
-          </div></li>
-        <li><div class="container">
-            <div class="visuel">
-                <img src="./asset/AC.png" alt="AC">
-              <div class="reflet"></div>
-            </div>
-          </div></li>
-        <li><div class="container">
-            <div class="visuel">
-                <img src="./asset/Muramasa.png" alt="Muramasa">
-              <div class="reflet"></div>
-            </div>
-          </div></li>
+    <ul class="grid-picture-large">
+      <li
+      data-image="./asset/Y0.png" 
+      data-title="Girl" 
+      data-description="c'est un film épatant, entre action et émotion..." 
+      data-dates="02/01/2020">
+            <figure>
+              <img src="./asset/Y0.png" alt="Y0">
+              <figcaption>
+                <h2>
+                  <i class="material-icons" aria-hidden="true">
+                    pages
+                </i>
+                Agrandir
+                    
+                </h2>
+              </figcaption>
+            </figure>
+       </li>
+      <li 
+      data-image="./asset/MGS2.png" 
+      data-title="Girl" 
+      data-description="c'est un film épatant, entre action et émotion..." 
+      data-dates="02/01/2020">
+      <figure>
+        <img src="./asset/MGS2.png" alt="MGS2">
+        <figcaption>
+          <h2>
+            <i class="material-icons" aria-hidden="true">
+              pages
+          </i>
+          Agrandir
+              
+          </h2>
+        </figcaption>
+      </figure>
+              
+
+        </li>
+        <li 
+        data-image="./asset/SG.png" 
+        data-title="Girl" 
+        data-description="c'est un film épatant, entre action et émotion..." 
+        data-dates="02/01/2020">
+        <figure>
+          <img src="./asset/SG.png" alt="SG">
+          <figcaption>
+            <h2>
+              <i class="material-icons" aria-hidden="true">
+                pages
+            </i>
+            Agrandir
+                
+            </h2>
+          </figcaption>
+        </figure>
+          
+              
+           
+         
+       </li>
+       <li 
+       data-image="./asset/AC.png" 
+       data-title="Girl" 
+       data-description="c'est un film épatant, entre action et émotion..." 
+       data-dates="02/01/2020">
+       <figure>
+          <img src="./asset/AC.png" alt="AC">
+         <figcaption>
+           <h2>
+             <i class="material-icons" aria-hidden="true">
+               pages
+           </i>
+           Agrandir
+               
+           </h2>
+         </figcaption>
+       </figure>
+
+             
+
+         
+        </li>
+        <li 
+        data-image="./asset/Muramasa.png" 
+        data-title="Girl" 
+        data-description="c'est un film épatant, entre action et émotion..." 
+        data-dates="02/01/2020">
+        <figure>
+           <img src="./asset/Muramasa.png" alt="Muramasa">
+          <figcaption>
+            <h2>
+              <i class="material-icons" aria-hidden="true">
+                pages
+            </i>
+            Agrandir
+                
+            </h2>
+          </figcaption>
+        </figure></li>
     </ul>
-</div>
     <section class="rhr">
         <h2 class="remplir">Remplissez le formulaire</h2><hr>
     </section>
-    <div class="form" role="form">
+    <figure class="form" role="form">
     <form method="get">     
         <fieldset>
         <label>Nom :
@@ -97,9 +165,25 @@
             <input type="submit" aria-label="Valider" value="Valider">
        </fieldset>  
     </form> 
-    </div>
+    </figure>
     </main>
     <footer><p>@ - Gaming - 2022</p></footer>
+    <div class="parent-modale" role="dialog">
+      <figure class="modale">
+          <button aria-label="closed">
+              <span class="material-icons">clear</span>
+          </button>
+          <img src="https://via.placeholder.com/500" alt="picture">
+          <figcaption class="desc">
+              <h3>title</h3>
+              <p>
+                 
+              </p>
+              <time>Years : </time>
+          </figcaption>
+      </figure>
+  </div>
+  <script src="./js/app.js"></script>
 </body>
 
 </html>

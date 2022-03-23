@@ -50,7 +50,7 @@ header img{
    
     max-width: 10rem;
 }
-div ul{
+figure ul{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     border: .1rem solid;
@@ -58,9 +58,9 @@ div ul{
     max-width: 60rem;
     margin: 0 auto;
 }
-div ul li{
+figure ul li{
     margin: 0 auto;
 }
-div img{
+figure img{
    width: 10rem;
 }
