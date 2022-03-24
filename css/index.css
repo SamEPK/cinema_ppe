@@ -333,7 +333,7 @@ form input[type="submit"]:hover{
         width: 80vw;
     }
     main .grid-picture-large{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
     .remplir{
         transform: translateY(3.8rem);
