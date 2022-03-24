@@ -188,7 +188,7 @@ ul figure:hover figcaption{
 
 /* modale */
 .parent-modale{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width:100%;
@@ -199,7 +199,7 @@ ul figure:hover figcaption{
     transition: all 0.4s ease-in-out;
 }
 .parent-modale .modale{
-    max-width: 50rem;
+    max-width: 30rem;
     padding: 1rem;
     position: fixed;
     top: 50%;
